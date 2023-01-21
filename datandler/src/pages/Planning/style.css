@@ -1,0 +1,25 @@
+.planning-container {
+  margin: 50px;
+}
+.planning-container-2 {
+  text-align: center;
+}
+.planning-container-2 > h1{
+  font-weight: 700;
+font-size: 40px;
+line-height: 50px;
+color: #0E1F51;
+}
+.planning-container-2 > h2 {
+  font-weight: 700;
+font-size: 24px;
+line-height: 20px;
+color: #FF3E54;
+}
+.planning-cards {
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+justify-content: center;
+flex-flow: row-reverse;
+}

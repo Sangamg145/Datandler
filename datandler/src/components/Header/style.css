@@ -1,0 +1,29 @@
+.nav {
+ height: 100px; 
+ display: flex;
+ justify-content: space-between;
+}
+.nav > div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.nav > img {
+  width: 200px;
+  object-fit: contain;
+}
+.nav > div> h2 {
+  font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+color: #0E1F51;
+}
+.nav > div > button {
+  color: #fff;
+  background-color: #ff3e54;
+  border: none;
+  outline: none;
+  width: 130px;
+height: 44px;
+border-radius: 5px;
+}
