@@ -1,0 +1,36 @@
+.home-container {
+  height: calc(100vh - 80px);
+}
+.home-child-conatiner {
+  display: flex;
+  justify-content: space-evenly;
+  color: #ff3e54;
+}
+.basic-button {
+  width: 165px;
+  height: 60px;
+  background: #ff3e54;
+  border-radius: 5px;
+  color: #fff;
+  border: none;
+  outline: none;
+}
+.home-background-icon {
+  /* background-image: url("../../assest/circle2nd.svg"); */
+  background-size: cover;
+}
+
+/* .background-img{
+    background-size: contain;
+    background-repeat: no-repeat;
+  background-image: url("../../assest/circle2.png");
+} */
+.heading1 {
+  line-height: 20px;
+}
+.heading2 {
+  font-weight: 700;
+font-size: 48px;
+line-height: 58px;
+color: #0E1F51;
+}
