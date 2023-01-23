@@ -4,6 +4,19 @@
   background: #0e1f51;
   border-radius: 5px;
 }
+.contact-form {
+  background: #fff;
+  padding: 50px;
+}
+@media only screen and (max-width: 768px) {
+  .contact-container {
+    margin-top: 20px;
+    padding: 10px;
+  }
+  .contact-form {
+    padding: 30px 20px
+  }
+}
 .contact-container > div {
   text-align: center;
 }
@@ -18,10 +31,6 @@
   font-size: 40px;
   line-height: 40px;
   color: #fff;
-}
-.contact-form {
-  background: #fff;
-  padding: 50px;
 }
 .contact-form > div {
   display: flex;
