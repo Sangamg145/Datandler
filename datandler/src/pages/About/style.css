@@ -3,6 +3,23 @@
   background-color: #F7F7F7;
   padding: 100px;
 }
+.about-container-img {
+}
+@media only screen and (max-width: 768px) {
+  .about-container {
+    display: flex;
+  background-color: #F7F7F7;
+  flex-direction: column;
+  padding: 20px;
+  }
+  .about-container-img {
+    width: 360px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto
+    ;
+  }
+}
 .about-container-2 {
 padding-left: 30px;
 }

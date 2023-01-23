@@ -8,7 +8,7 @@ import OurServices from "../OurServices/index"
 import ContactUs from "../../components/ContactPage/index"
 const Home = () => {
   return (
-    <div style={{padding:"30px"}}>
+    <div>
       <Header/>
       <Index/>
       <About/>

@@ -1,27 +1,43 @@
 import React from "react";
+import Card from "../../components/generic/card";
 import "./style.css";
 
-const Card1 = require("../../assest/Services1.png");
-const Card2 = require("../../assest/Services2.png");
-const Card3 = require("../../assest/Services3.png");
+const Card3 = require("../../assest/research.png");
 
 const DummyData = [
   {
-    id: 1,
-    CardImg: Card1,
-  },
-  {
-    id: 2,
-    CardImg: Card2,
-  },
-  {
-    id: 3,
     CardImg: Card3,
+    title:'Web Design / Development',
+    message:'It is a long established fact that a reader will be distra by the readable content of a page when looking at its layout, when looking at its layout'
   },
-  // {
-  //   id: 4,
-  //   CardImg: Card4,
-  // },
+  {
+    CardImg: Card3,
+    title:'UI/UX Design',
+    message:'It is a long established fact that a reader will be distra by the readable content of a page when looking at its layout, when looking at its layout'
+ 
+  },
+  {
+    CardImg: Card3,
+    title:'Website Migration',
+    message:'It is a long established fact that a reader will be distra by the readable content of a page when looking at its layout, when looking at its layout'
+  },
+  {
+    CardImg: Card3,
+    title:'App Development',
+    message:'It is a long established fact that a reader will be distra by the readable content of a page when looking at its layout, when looking at its layout'
+ 
+  },
+  {
+    CardImg: Card3,
+    title:'HubSpot Integration',
+    message:'It is a long established fact that a reader will be distra by the readable content of a page when looking at its layout, when looking at its layout'
+  },
+  {
+    CardImg: Card3,
+    title:'Email Marketing',
+    message:'It is a long established fact that a reader will be distra by the readable content of a page when looking at its layout, when looking at its layout'
+ 
+  },
 ];
 
 const index = () => {
@@ -31,9 +47,11 @@ const index = () => {
         <h2>\ Services \</h2>
         <h1>Our Expertice</h1>
       </div>
-      <div style={{display:"flex", flexWrap:"wrap", gap:"20px", justifyContent:"center"}}>
+      <div className="planning-cards" style={{gridTemplateColumns:'repeat(auto-fill, minmax(330px, 1fr))'}}>
         {DummyData.map((item) => (
-          <img src={item.CardImg} />
+         <Card title={item.title} img={item.CardImg}
+         count={item.id}
+         message={item.message} />
         ))}
       </div>
     </div>

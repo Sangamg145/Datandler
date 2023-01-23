@@ -17,9 +17,9 @@ const Index = () => {
           <button className="basic-button">View More</button>
          </div>
          </div>
-
-          <img src={MainImg} />
-        </div>
+<div className="about-container-img">
+          <img src={MainImg} style={{width:'100%',height:'100%'}}  />
+        </div></div>
       </div>
     </div>
   );

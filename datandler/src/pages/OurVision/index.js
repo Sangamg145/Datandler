@@ -4,8 +4,8 @@ import "./style.css";
 const index = () => {
   return (
     <div className="about-container">
-      <div>
-        <img src={Img} />
+      <div className="about-container-img">
+        <img src={Img} style={{width:'100%',height:'100%'}} />
       </div>
       <div className="about-container-2">
         <h2>\ What We Do \</h2>

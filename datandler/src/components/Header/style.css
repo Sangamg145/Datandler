@@ -1,22 +1,29 @@
 .nav {
  height: 100px; 
  display: flex;
+ padding: 0 4%;
+ flex-direction: row;
  justify-content: space-between;
 }
 .nav > div {
-  display: flex;
   align-items: center;
   gap: 10px;
+  margin-top: 24px;
 }
 .nav > img {
   width: 200px;
   object-fit: contain;
 }
-.nav > div> h2 {
-  font-weight: 600;
+.nav > div> a {
+height: 20px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 600;
 font-size: 16px;
 line-height: 20px;
 color: #0E1F51;
+margin-left: 16px;
+text-decoration: none;
 }
 .nav > div > button {
   color: #fff;
@@ -25,5 +32,115 @@ color: #0E1F51;
   outline: none;
   width: 130px;
 height: 44px;
+margin-left: 16px;
 border-radius: 5px;
+}
+.nav-hamberger >div{
+  width: 35px;
+  height: 5px;
+  background-color: #0e1f51;
+  margin: 6px 0;
+}
+
+.nav-hamberger{
+  display: none;
+}
+
+@media only screen and (max-width: 900px) {
+  .nav-items{
+    display: none;
+  }
+  .nav-hamberger{
+    display: block;
+  }
+}
+
+/* Sidebar */
+
+.wrapper .sidebar{
+  /* background: rgb(5, 68, 104); */
+  background-color: #0e1f51;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 230px;
+  height: 100%;
+  padding: 20px 0;
+  transition: all 1s ease;
+  margin-top: 100px;
+}
+.wrapper .sidebar-open{
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 100%;
+  padding: 20px 0;
+  margin-top: 100px;
+  transition: all .7s ease;
+}
+
+.wrapper .sidebar .profile{
+  text-align: center;
+  border-radius: 50%;
+  width:100px;
+  height: 100px;
+  background-color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 8px;
+}
+
+.wrapper .sidebar .profile img{
+  display: block;
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  margin: 0 auto;
+}
+
+.wrapper .sidebar .profile h3{
+  color: #ffffff;
+  margin: 10px 0 5px;
+}
+
+.wrapper .sidebar .profile p{
+  color: rgb(206, 240, 253);
+  font-size: 14px;
+}
+.wrapper .sidebar ul{
+  list-style: none;
+  padding: 0;
+}
+.wrapper .sidebar ul li a{
+  display: block;
+  padding: 13px 30px;
+  border-bottom: 1px solid #10558d;
+  color: rgb(241, 237, 237);
+  font-size: 16px;
+  position: relative;
+  text-decoration: none;
+}
+
+.wrapper .sidebar ul li a .icon{
+  color: #dee4ec;
+  width: 30px;
+  display: inline-block;
+}
+.wrapper .sidebar ul li a:hover,
+.wrapper .sidebar ul li a.active{
+    color: #0c7db1;
+
+    background:white;
+    border-right: 2px solid rgb(5, 68, 104);
+}
+
+.wrapper .sidebar ul li a:hover .icon,
+.wrapper .sidebar ul li a.active .icon{
+    color: #0c7db1;
+}
+
+.wrapper .sidebar ul li a:hover:before,
+.wrapper .sidebar ul li a.active:before{
+    display: block;
 }
