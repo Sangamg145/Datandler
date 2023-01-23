@@ -10,7 +10,7 @@ const index = () => {
       <div className="contact-form">
         <div>
           <input type="text" placeholder="Name" />
-          <input type="text" placeholder="Emial" />
+          <input type="text" placeholder="Email" />
           <input type="text" placeholder="Phone" />
           <textarea type="text" placeholder="Your Message" />
           <button>Send Now</button>

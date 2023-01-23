@@ -1,35 +1,31 @@
 import React from "react";
 import Card from "../../components/generic/card";
 import "./style.css";
-
-const Card1 = require("../../assest/Card1.png");
-const Card2 = require("../../assest/Card2.png");
 const Card3 = require("../../assest/research.png");
-const Card4 = require("../../assest/Card4.png");
 
 const DummyData = [
   {
     id:'01',
-    CardImg: Card1,
+    CardImg: Card3,
     title:'Research',
     message:'It is a long established fact that a reader will be distra by the readable content of a page.'
   },
   {
     id: '02',
-    CardImg: Card2,
+    CardImg: Card3,
     title:'Design',
     message:'It is a long established fact that a reader will be distra by the readable content of a page.'
  
   },
   {
     id:'03',
-    CardImg: Card1,
+    CardImg: Card3,
     title:'Develope',
     message:'It is a long established fact that a reader will be distra by the readable content of a page.'
   },
   {
     id: '04',
-    CardImg: Card2,
+    CardImg: Card3,
     title:'Test',
     message:'It is a long established fact that a reader will be distra by the readable content of a page.'
  

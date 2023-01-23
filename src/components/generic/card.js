@@ -4,7 +4,6 @@ export default function Card(props) {
   return (
     <div
     style={{
-      height: 314,
       background: "#F7F7F7",
       borderRadius: 10,
       padding: "10px 10px 10px 30px",
