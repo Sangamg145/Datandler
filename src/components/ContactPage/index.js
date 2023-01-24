@@ -9,7 +9,7 @@ const Index = () => {
     message: "",
   });
   const [errors, setError] = useState({});
-
+  const [loading, setLoading] = useState(false);
   const handleChange = (event) => {
     setValues({
       ...values,
@@ -17,10 +17,22 @@ const Index = () => {
     });
   };
   const handleSubmit = (event) => {
+    setLoading(true)
     event.preventDefault();
     setError(Validation(values));
+    // if(!errors){
+      const requestOptions = {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email:values.email,message:values.message })
+    };
+    fetch('https://blogs-api-2mym.onrender.com/app/api/contact-us', requestOptions)
+        .then(response => response.json())
+        .then(data => console.log('first',data));
+        setLoading(false)
+    // }
   };
-  console.log("valuesvalues", values);
+
   return (
     <div className="contact-container">
       <div>
@@ -93,7 +105,7 @@ const Index = () => {
             value={values.message}
             onChange={handleChange}
           />
-          <button onClick={handleSubmit}>Send Now</button>
+          <button disabled={loading?true:false} onClick={handleSubmit}>{loading? "Loading...":"Send Now"}</button>
         </div>
         <div className="information-card">
           <div></div>
