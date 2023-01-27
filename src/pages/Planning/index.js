@@ -1,18 +1,20 @@
 import React from "react";
 import Card from "../../components/generic/card";
 import "./style.css";
-const Card3 = require("../../assest/research.png");
-
+const Card1 = require("../../assest/icon10.png");
+const Card2 = require("../../assest/icon1.png");
+const Card3 = require("../../assest/icon9.png");
+const Card4 = require("../../assest/icon2.png");
 const DummyData = [
   {
     id:'01',
-    CardImg: Card3,
+    CardImg: Card1,
     title:'Research',
     message:'It is a long established fact that a reader will be distra by the readable content of a page.'
   },
   {
     id: '02',
-    CardImg: Card3,
+    CardImg: Card2,
     title:'Design',
     message:'It is a long established fact that a reader will be distra by the readable content of a page.'
  
@@ -25,7 +27,7 @@ const DummyData = [
   },
   {
     id: '04',
-    CardImg: Card3,
+    CardImg: Card4,
     title:'Test',
     message:'It is a long established fact that a reader will be distra by the readable content of a page.'
  
