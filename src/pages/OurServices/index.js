@@ -2,16 +2,20 @@ import React from "react";
 import Card from "../../components/generic/card";
 import "./style.css";
 
-const Card3 = require("../../assest/research.png");
-
+const Card1 = require("../../assest/icon3.png");
+const Card2 = require("../../assest/icon4.png");
+const Card3 = require("../../assest/icon5.png");
+const Card4 = require("../../assest/icon6.png");
+const Card5 = require("../../assest/icon7.png");
+const Card6 = require("../../assest/icon8.png");
 const DummyData = [
   {
-    CardImg: Card3,
+    CardImg: Card1,
     title:'Web Design / Development',
     message:'It is a long established fact that a reader will be distra by the readable content of a page when looking at its layout, when looking at its layout'
   },
   {
-    CardImg: Card3,
+    CardImg: Card2,
     title:'UI/UX Design',
     message:'It is a long established fact that a reader will be distra by the readable content of a page when looking at its layout, when looking at its layout'
  
@@ -22,18 +26,18 @@ const DummyData = [
     message:'It is a long established fact that a reader will be distra by the readable content of a page when looking at its layout, when looking at its layout'
   },
   {
-    CardImg: Card3,
+    CardImg: Card4,
     title:'App Development',
     message:'It is a long established fact that a reader will be distra by the readable content of a page when looking at its layout, when looking at its layout'
  
   },
   {
-    CardImg: Card3,
+    CardImg: Card5,
     title:'HubSpot Integration',
     message:'It is a long established fact that a reader will be distra by the readable content of a page when looking at its layout, when looking at its layout'
   },
   {
-    CardImg: Card3,
+    CardImg: Card6,
     title:'Email Marketing',
     message:'It is a long established fact that a reader will be distra by the readable content of a page when looking at its layout, when looking at its layout'
  
