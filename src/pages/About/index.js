@@ -1,5 +1,6 @@
 import React from "react";
 import Img from "../../assest/About.png";
+import HumanIcon from "../../assest/humanIcon.svg";
 import "./style.css";
 const index = () => {
   return (
@@ -35,22 +36,57 @@ const index = () => {
             distribution of letters, as opposed
           </p>
         </div>
-        <div className="about-container-2"
+        <div
+          className="about-container-2"
           style={{
             maxWidth: 555,
             height: 100,
             background: "#FFFFFF",
             borderRadius: 10,
-            
-            textAlign:'center'
+
+            textAlign: "center",
           }}
         >
-          <p style={{fontFamily: 'Raleway',
-fontWeight: '700',
-fontSize: 20,
-lineHeight: '20px',
-color: '#0E1F51'}}>Get Instant Professional Advice</p>
-          <p>Need help 9988987890</p>
+          <div style={{
+            display: "flex",
+            alignItems: "center",
+            textAlign: "start",
+            justifyContent: "space-evenly"
+          }}>
+            <div>
+              <img style={{
+padding: "10px",
+backgroundColor: "#f5f5f5",
+borderRadius: "10px"
+
+              }} src={HumanIcon} alt="helpLineIcon" />
+            </div>
+            <div>
+              <p
+                style={{
+                  fontFamily: "Raleway",
+                  fontWeight: "700",
+                  fontSize: 20,
+                  lineHeight: "20px",
+                  color: "#0E1F51",
+                }}
+              >
+                Get Instant Professional Advice
+              </p>
+              <p style={{ fontWeight: 500, fontSize: "16px" }}>
+                Ready to Help :{" "}
+                <span
+                  style={{
+                    fontSize: "16px",
+                    fontWeight: 700,
+                    color: "#FF3E54",
+                  }}
+                >
+                  9988987890
+                </span>
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
