@@ -1,13 +1,11 @@
-.ourvisionBox{
+.ourvisionBox {
   display: flex;
- flex-direction: row;
- gap: 20px;
-};
+  flex-direction: row;
+  gap: 20px;
+}
 
-  @media only screen and (max-width:768px) {
-    .ourvisionBox {
-
+@media only screen and (max-width: 768px) {
+  .ourvisionBox {
     flex-direction: column;
-  
-   }
+  }
 }

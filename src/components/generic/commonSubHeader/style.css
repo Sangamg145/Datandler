@@ -1,0 +1,30 @@
+.conatiner-Inner {
+  display: flex;
+  height: 188px;
+  width: 100%;
+  background-color: hsl(225, 71%, 19%);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.conatiner-Inner > div > h1 {
+  color: rgb(255, 62, 84);
+  font-weight: 700;
+  font-size: 48px;
+  margin: 0px
+;
+}
+.conatiner-Inner > div > h3 {
+  font-weight: 500;
+  font-size: 24px;
+  color: #fff;
+margin: 0;
+}
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Mobile Responsive>>>>>>>>>>>>>>>>>>>>>>>>> */
+@media only screen and (max-width: 768px) {
+  .conatiner-Inner {
+    height: 100px
+  }
+  .conatiner-Inner > div > h1 {
+    font-size: 32px;
+  }}

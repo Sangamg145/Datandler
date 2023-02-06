@@ -4,11 +4,49 @@
   padding: 100px;
 }
 .about-container-img {
+width: 40%;
+}
+.about-container-div {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
 }
 .about-container-2 {
   margin-left: 30px;
+  
+  }
+  .about-container-3 {
+    margin-left: 30px;
+  }
+  .about-Bottom-helpCard {
+    display: flex;
+    align-items: center;
+    text-align: start;
+    padding: 8px;
+    gap: 10px;
+    justify-content: space-evenly;
+    background-color: #fff;
+  }
+  .about-Bottom-helpCard > div > p {
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0;
+    line-height: 20px;
+    color: rgb(14, 31, 81);
+  }
+  .about-container-2 > p {
+    font-family: Raleway;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
   }
 @media only screen and (max-width: 768px) {
+  .about-container-div {
+    width: 100%;
+  }
+  .about-container-img {
+    width: 100%;
+  }
   .about-container {
     display: flex;
   background-color: #F7F7F7;
@@ -16,7 +54,7 @@
   padding: 20px;
   }
   .about-container-img {
-    width: 360px;
+    width: 100%;
     display: flex;
     margin-right: auto;
     margin-left: auto
@@ -25,6 +63,23 @@
   .about-container-2 {
     margin-left: 0px;
     }
+    .about-container-2 > h2 {
+      margin: 12px;
+      font-size: 22px !important;
+      text-align: center;
+      }
+      .about-container-2 >  h1 {
+        font-weight: 700 !important;
+        font-size: 20px !important;
+        line-height: normal !important;
+        text-align: center;
+      }
+      .about-container-2 > p {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+      }
 }
 
 .about-container-2 > h1{
