@@ -20,11 +20,13 @@ width: 40%;
   }
   .about-Bottom-helpCard {
     display: flex;
+    width: 60%;
     align-items: center;
     text-align: start;
     padding: 8px;
     gap: 10px;
-    justify-content: space-evenly;
+    border-radius: 8px;
+    /* justify-content: space-evenly; */
     background-color: #fff;
   }
   .about-Bottom-helpCard > div > p {

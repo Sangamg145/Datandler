@@ -9,3 +9,60 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.banner-sec {
+  height: 100vh;
+  color: #575a89;
+  display: flex;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  justify-content: center;
+  -ms-flex-pack: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+  font-size: 90px;
+  font-weight: 900;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 130px;
+}
+.sec-404 {
+  -moz-justify-content: space-between;
+  -ms-justify-content: space-between;
+  justify-content: space-between;
+  -ms-flex-pack: space-between;
+  text-align: left;
+  font-size: 14px;
+  line-height: normal;
+  color: #4a4a4a;
+  font-weight: 400;
+}
+.illu-404 {
+  text-align: right;
+  padding: 60px;
+}
+.contactInfo {
+  -ms-flex-pack: space-between;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+  color: #575a89;
+  display: flex;
+  font-weight: 600;
+  -moz-justify-content: space-between;
+  -ms-justify-content: space-between;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+
+
+ul {
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+li,  ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}

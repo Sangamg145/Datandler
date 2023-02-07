@@ -7,6 +7,7 @@ import reportWebVitals from './reportWebVitals';
 import AboutUs from './pages/InnerPages/AboutPageInner/aboutUs';
 import Serviceinner from "./pages/InnerPages/ServicesInner/serviceInner";
 import Porfolio from './pages/InnerPages/PorfolioInner/portfolio';
+import NotFound from './components/generic/NotFound';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   // <React.StrictMode>
@@ -18,6 +19,7 @@ root.render(
    <Route path="/about" element={<AboutUs/>}/>
    <Route path="/service" element={<Serviceinner/>}/>
    <Route path="/Ourportfolio" element={<Porfolio/>}/>
+   <Route path='*' element={<NotFound />}/>
 
 
 
