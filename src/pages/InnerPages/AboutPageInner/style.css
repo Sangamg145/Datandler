@@ -1,0 +1,95 @@
+
+.conatiner-abouH3 {
+  color: #ff3e54;
+  font-weight: 700;
+  font-size: 48px;
+}
+
+
+.container-aboutInner2nd {
+  display: flex;
+  padding: 100px;
+  background: #f7f7f7;
+ 
+}
+.container-aboutInner2nd > div {
+  margin-left: 20px ;
+}
+.container-aboutInner2nd > div > h2 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 20px;
+  color: #ff3e54;
+}
+.container-aboutInner2nd > div > h3 {
+  font-weight: 700;
+  font-size: 40px;
+  color: #0e1f51;
+  margin: 0;
+}
+.container-aboutInner2nd > div > p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 27px;
+}
+.about-containerInner3rd {
+  width: 100%;
+  /* height: 100px; */
+  padding: 16px;
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+  text-align: center;
+}
+.about-containerInner3rd > div {
+  display: flex;
+  align-items: center;
+  text-align: start;
+  gap: 20px;
+}
+.about-containerInner3rd-div > p {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  color: rgb(14, 31, 81);
+  margin: 0px;
+}
+.about-containerInner3rd-div > span {
+
+}
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<MobileScreen>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+@media only screen and (max-width: 768px) {
+  
+.container-aboutInner2nd {
+padding: 16px;
+flex-direction: column;
+}
+.container-aboutInner2nd > div {
+  margin: 0;
+  text-align: center;
+}
+.container-aboutInner2nd > div > h2 {
+  margin: 12px;
+  font-size: 22px;
+}
+.container-aboutInner2nd > div > h3 {
+  font-weight: 700;
+    font-size: 20px;
+}
+.container-aboutInner2nd > div > p {
+font-size: 12px;
+line-height:normal;
+
+}
+.about-containerInner3rd {
+  padding: 0px;
+}
+.about-containerInner3rd > div {
+  display: flex;
+  padding: 8px;
+    align-items: center;
+    justify-content: center;
+}
+.about-containerInner3rd-div > p {
+  font-size: 16px;
+}
+}

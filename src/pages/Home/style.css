@@ -32,6 +32,10 @@ color: #0E1F51;
 }
 
 @media only screen and (max-width: 768px) {
+  .home-container {
+    height: auto;
+ 
+  }
   .home-child-conatiner {
     display: flex;
     justify-content: space-evenly;
