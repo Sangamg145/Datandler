@@ -4,9 +4,41 @@
   background: #0e1f51;
   border-radius: 5px;
 }
-.contact-form {
+.contact-page-row{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.contact-form:nth-child(1) {
   background: #fff;
   padding: 50px;
+  border-radius: 10px;
+  flex:0.7
+}
+.contact-form:nth-child(2) {
+  background: #fff;
+  padding: 50px;
+  border-radius: 10px;
+  flex:0.3
+
+}
+@media only screen and (max-width: 900px) {
+  .contact-page-row{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .contact-form:nth-child(1) {
+    background: #fff;
+    padding: 16px;
+    border-radius: 10px;
+  }
+  .contact-form:nth-child(2) {
+    background: #fff;
+    padding: 16px;
+    border-radius: 10px;
+  
+  }
 }
 @media only screen and (max-width: 768px) {
   .contact-container {

@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import Validation from "./validation";
+
+import HumanIcon from "../../assest/humanIcon.svg";
 import "./style.css";
 const Index = () => {
   const [values, setValues] = useState({
@@ -39,7 +41,8 @@ const Index = () => {
         <h2>\ Get In Touch \</h2>
         <h1>Hey! Let’s Talk</h1>
       </div>
-      <div className="contact-form">
+      <div className="contact-page-row">
+      <div className="contact-form" >
         <div>
           <input
             type="text"
@@ -111,7 +114,128 @@ const Index = () => {
           <div></div>
         </div>
       </div>
-    </div>
+
+
+
+      
+      <div className="contact-form">
+      <div className="about-containerInner3rd">
+            <div>
+              <div>
+                <img
+                  style={{
+                    padding: "10px",
+                    backgroundColor: "#f5f5f5",
+                    borderRadius: "10px",
+                  }}
+                   src={HumanIcon}
+                  alt="helpLineIcon"
+                />
+              </div>
+              <div className="about-containerInner3rd-div">
+                <p style={{ color: "#FF3E54",}}>
+                Call Anytime
+                </p>
+                <p style={{ fontWeight: 500, fontSize: "16px", margin: "0" }}>
+                + 91 23678 27867
++ 91 67678 92878
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="about-containerInner3rd">
+            <div>
+              <div>
+                <img
+                  style={{
+                    padding: "10px",
+                    backgroundColor: "#f5f5f5",
+                    borderRadius: "10px",
+                  }}
+                   src={HumanIcon}
+                  alt="helpLineIcon"
+                />
+              </div>
+              <div className="about-containerInner3rd-div">
+                <p style={{ color: "#FF3E54",}}>
+                Send Email
+                </p>
+                <p style={{ fontWeight: 500, fontSize: "16px", margin: "0" }}>
+                connect@itfirms.com
+hello@itfirms.com
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="about-containerInner3rd">
+            <div>
+              <div>
+                <img
+                  style={{
+                    padding: "10px",
+                    backgroundColor: "#f5f5f5",
+                    borderRadius: "10px",
+                  }}
+                   src={HumanIcon}
+                  alt="helpLineIcon"
+                />
+              </div>
+              <div className="about-containerInner3rd-div">
+                <p style={{ color: "#FF3E54",}}>
+                Visit Us
+                </p>
+                <p style={{ fontWeight: 500, fontSize: "16px", margin: "0" }}>
+                20 Island Park Road, 
+New Jearsy, New York, USA
+                </p>
+              </div>
+            </div>
+          </div>
+      
+        <div className="information-card">
+          <div>Follow us</div>
+          <div style={{display:'flex',flexDirection:'row',gap:30,marginRight:'auto',marginLeft:'auto'}}>
+          <img
+                  style={{
+                    padding: "10px",
+                    backgroundColor: "#f5f5f5",
+                    borderRadius: "10px",
+                    width:30
+                  }}
+                   src={HumanIcon}
+                  alt="helpLineIcon"
+                /><img
+                style={{
+                  padding: "10px",
+                  backgroundColor: "#f5f5f5",
+                  borderRadius: "10px",
+                  width:30
+                }}
+                 src={HumanIcon}
+                alt="helpLineIcon"
+              /> <img
+              style={{
+                padding: "10px",
+                backgroundColor: "#f5f5f5",
+                borderRadius: "10px",
+                width:30
+              }}
+               src={HumanIcon}
+              alt="helpLineIcon"
+            /><img
+            style={{
+              padding: "10px",
+              backgroundColor: "#f5f5f5",
+              borderRadius: "10px",
+              width:30
+            }}
+             src={HumanIcon}
+            alt="helpLineIcon"
+          />
+              </div>
+        </div>
+      </div>
+    </div></div>
   );
 };
 
