@@ -1,5 +1,6 @@
 import React from 'react'
 import './footer.css'
+import LogoImg from "../../assest/fav-icon.png"
 export default function Footer() {
   return (
     <div>
@@ -10,10 +11,10 @@ export default function Footer() {
       </svg>
       <div class="footer-content">
         <div class="footer-content-column">
-          <div class="footer-logo">
-            <a class="footer-logo-link" href="#">
-              <span class="hidden-link-text">LOGO</span>
-              <h1>LOGO</h1>
+          <div class="footer-logo" >
+            <a class="footer-logo-link" href="#" style={{display:"flex"}}>
+              <h2 style={{display:"flex", flexDirection:"column"}}>Datandler<span style={{fontSize:"12px", textAlign:"right"}}>Software</span></h2>
+<img src={LogoImg} alt="Logo" style={{width:"80px"}}/>
             </a>
           </div>
           <div class="footer-menu">
