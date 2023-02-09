@@ -6,6 +6,7 @@ import Planning from "../Planning/index";
 import OurVision from "../OurVision/index";
 import OurServices from "../OurServices/index"
 import ContactUs from "../../components/ContactPage/index"
+import Footer from '../Footer';
 const Home = () => {
   return (
     <div>
@@ -16,6 +17,7 @@ const Home = () => {
       <OurVision/>
       <OurServices/>
       <ContactUs/>
+      <Footer />
     </div>
   )
 }
