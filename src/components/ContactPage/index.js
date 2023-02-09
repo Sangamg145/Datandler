@@ -12,6 +12,7 @@ import LinkIcon from "../../assest/LinkdlnIcon.svg";
 
 
 import "./style.css";
+import { Link, NavLink } from "react-router-dom";
 const Index = () => {
   const [values, setValues] = useState({
     userName: "",
@@ -238,6 +239,7 @@ const Index = () => {
                 src={FBIcon}
                 alt="helpLineIcon"
               />
+              <a href="https://twitter.com/Datandler_SW" target="blank">
               <img
                 style={{
                   padding: "10px",
@@ -247,8 +249,7 @@ const Index = () => {
                   height: 30
                 }}
                 src={TwitterIcon}
-                alt="helpLineIcon"
-              />
+                alt="helpLineIcon"/></a>
             </div>
           </div>
         </div>
