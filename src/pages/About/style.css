@@ -82,6 +82,12 @@ width: 40%;
         line-height: 26px;
         text-align: center;
       }
+      .about-Bottom-helpCard {
+        width: 100%;
+      }
+      .about-container-3 {
+        margin: 0 10px;
+      }
 }
 
 .about-container-2 > h1{
