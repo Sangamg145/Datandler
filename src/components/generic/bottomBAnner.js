@@ -1,7 +1,7 @@
 import React from "react";
 import BannerImg from "../../assest/btmBanner.png";
 import "./bottomStyle.css";
-const BottomBAnner = () => {
+const BottomBAnner = ({setGoto}) => {
   return (
     <div className="container-bottom-banner">
       <img src={BannerImg} className="conatiner-img"/>
@@ -18,7 +18,9 @@ const BottomBAnner = () => {
             border: "none",
             outline: "none",
             padding: "10px",
+            cursor:'pointer'
           }}
+          onClick={()=>setGoto(1)}
         >
           Get In Touch
         </button>

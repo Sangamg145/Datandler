@@ -12,7 +12,7 @@ export default function Footer() {
       <div class="footer-content">
         <div class="footer-content-column">
           <div class="footer-logo" >
-            <a class="footer-logo-link" href="#" style={{display:"flex"}}>
+            <a class="footer-logo-link" href="/" style={{display:"flex"}}>
               <h2 style={{display:"flex", flexDirection:"column"}}>Datandler<span style={{fontSize:"12px", textAlign:"right"}}>Software</span></h2>
 <img src={LogoImg} alt="Logo" style={{width:"80px"}}/>
             </a>
@@ -37,7 +37,7 @@ export default function Footer() {
             <h2 class="footer-menu-name"> Company</h2>
             <ul id="menu-company" class="footer-menu-list">
               <li class="menu-item menu-item-type-post_type menu-item-object-page">
-                <a href="#">Contact</a>
+                <a href="/contactUs">Contact</a>
               </li>
               <li class="menu-item menu-item-type-taxonomy menu-item-object-category">
                 <a href="#">News</a>
@@ -87,7 +87,7 @@ export default function Footer() {
           <div class="footer-call-to-action">
             <h2 class="footer-call-to-action-title"> Let's Chat</h2>
             <p class="footer-call-to-action-description"> Have a support question?</p>
-            <a class="footer-call-to-action-button button" href="#" target="_self"> Get in Touch </a>
+            <a class="footer-call-to-action-button button" href="/contactUs" target="_self"> Get in Touch </a>
           </div>
           <div class="footer-call-to-action">
             <h2 class="footer-call-to-action-title"> You Call Us</h2>
