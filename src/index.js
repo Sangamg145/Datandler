@@ -9,6 +9,8 @@ import Serviceinner from "./pages/InnerPages/ServicesInner/serviceInner";
 import Porfolio from './pages/InnerPages/PorfolioInner/portfolio';
 import NotFound from './components/generic/NotFound';
 import DashboardLayout from './components/Layout/DashboardLayout';
+import OurBlogs from "./pages/InnerPages/BlogInner/index";
+import Contact from './pages/InnerPages/ContactInner/Contact';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const router = createBrowserRouter([
   {
@@ -32,6 +34,14 @@ const router = createBrowserRouter([
         path: "/Ourportfolio",
         element: <Porfolio />,
       },
+      {
+        path: "/blogs",
+        element: <OurBlogs/>
+      },
+      {
+        path: "/contactUs",
+        element: <Contact/>
+      }
     ],
   },
 ]);

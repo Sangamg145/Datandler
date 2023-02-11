@@ -13,8 +13,8 @@ export const Header = () => {
           <a href="about">About</a>
           <a href="service">Our Services</a>
           <a href="Ourportfolio">Portfolio</a>
-          <a href="blog">Blog</a>
-          <a href="contact">Contact</a>
+          <a href="blogs">Blog</a>
+          <a href="contactUs">Contact</a>
           <button>Get In Touch</button>
         </div>
         <div className="nav-hamberger" onClick={()=>setOpen(!open)}>
