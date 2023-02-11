@@ -4,7 +4,6 @@ import Img from "../../../assest/About.png";
 import HumanIcon from "../../../assest/humanIcon.svg";
 import "./style.css";
 import BottomBAnner from "../../../components/generic/bottomBAnner";
-import Footer from "../../../components/generic/Footer/Footer";
 import CommonSubHeader from "../../../components/generic/commonSubHeader/commonsubheader";
 const AboutUs = () => {
   return (
@@ -58,7 +57,6 @@ const AboutUs = () => {
       <div>
         <BottomBAnner />
       </div>
-      <Footer/>
     </>
   );
 };
