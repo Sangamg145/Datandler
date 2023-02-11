@@ -1,0 +1,45 @@
+.blogCard {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(263px, 1fr)); 
+ grid-gap: 20px;
+ padding: 50px 150px;
+
+}
+.blogCard > div {
+  /* margin: 20px; */
+  background-color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+.blogCard > div > h2 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ff3e54;
+  width: 90%;
+
+}
+.blogSubDiv {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.blogSubDiv > p {
+  font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+color: #0E1F51;
+
+}
+.blogSubDiv > span {
+  font-weight: 600;
+font-size: 14px;
+line-height: 20px;
+text-align: right;
+
+color: #252525;
+
+opacity: 0.7;
+}

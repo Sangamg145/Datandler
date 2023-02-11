@@ -1,0 +1,24 @@
+.blog_inner_div {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.blogInnerHeading {
+  color:#FF3E54;
+  font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+}
+.blogSecondDiv {
+  /* display: flex; */
+  text-align: left;
+  padding-left: 20px;
+  
+}
+.blogSecondDiv  > h2{
+  font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+color: #FF3E54;
+}

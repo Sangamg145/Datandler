@@ -7,13 +7,12 @@ import LocationIcon from "../../assest/locationIcon.svg";
 import TwitterIcon from "../../assest/TwitterIcon.svg";
 import InstaIcon from "../../assest/InstagramIcon.svg";
 import FBIcon from "../../assest/FBIcon.svg";
-import LinkIcon from "../../assest/LinkdlnIcon.svg"; 
-    // "LinkdlnIcon.svg"
-
+import LinkIcon from "../../assest/LinkdlnIcon.svg";
+// "LinkdlnIcon.svg"
 
 import "./style.css";
 import { Link, NavLink } from "react-router-dom";
-const Index = () => {
+const Index = ({background, textColor, margin}) => {
   const [values, setValues] = useState({
     userName: "",
     email: "",
@@ -49,10 +48,10 @@ const Index = () => {
   };
 
   return (
-    <div className="contact-container">
+    <div className="contact-container" style={{backgroundColor:background, marginTop:margin}}>
       <div>
         <h2>\ Get In Touch \</h2>
-        <h1>Hey! Let’s Talk</h1>
+        <h1 style={{color:textColor}}>Hey! Let’s Talk</h1>
       </div>
       <div className="contact-page-row">
         <div className="contact-form">
@@ -120,7 +119,7 @@ const Index = () => {
               name="message"
               value={values.message}
               onChange={handleChange}
-      />
+            />
             <button disabled={loading ? true : false} onClick={handleSubmit}>
               {loading ? "Loading..." : "Send Now"}
             </button>
@@ -196,7 +195,11 @@ const Index = () => {
           </div>
 
           <div className="information-card">
-            <div style={{color:"#0E1F51", fontSize:"24px", fontWeight:700}}>Follow us</div>
+            <div
+              style={{ color: "#0E1F51", fontSize: "24px", fontWeight: 700 }}
+            >
+              Follow us
+            </div>
             <div
               style={{
                 display: "flex",
@@ -212,7 +215,7 @@ const Index = () => {
                   backgroundColor: "#FF3E54",
                   borderRadius: "10px",
                   width: 30,
-                  height: 30
+                  height: 30,
                 }}
                 src={LinkIcon}
                 alt="helpLineIcon"
@@ -223,7 +226,7 @@ const Index = () => {
                   backgroundColor: "#FF3E54",
                   borderRadius: "10px",
                   width: 30,
-                  height: 30
+                  height: 30,
                 }}
                 src={InstaIcon}
                 alt="helpLineIcon"
@@ -234,22 +237,24 @@ const Index = () => {
                   backgroundColor: "#FF3E54",
                   borderRadius: "10px",
                   width: 30,
-                  height: 30
+                  height: 30,
                 }}
                 src={FBIcon}
                 alt="helpLineIcon"
               />
               <a href="https://twitter.com/Datandler_SW" target="blank">
-              <img
-                style={{
-                  padding: "10px",
-                  backgroundColor: "#FF3E54",
-                  borderRadius: "10px",
-                  width: 30,
-                  height: 30
-                }}
-                src={TwitterIcon}
-                alt="helpLineIcon"/></a>
+                <img
+                  style={{
+                    padding: "10px",
+                    backgroundColor: "#FF3E54",
+                    borderRadius: "10px",
+                    width: 30,
+                    height: 30,
+                  }}
+                  src={TwitterIcon}
+                  alt="helpLineIcon"
+                />
+              </a>
             </div>
           </div>
         </div>

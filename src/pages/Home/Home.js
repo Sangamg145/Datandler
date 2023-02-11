@@ -5,6 +5,8 @@ import Planning from "../Planning/index";
 import OurVision from "../OurVision/index";
 import OurServices from "../OurServices/index"
 import ContactUs from "../../components/ContactPage/index"
+import OurBlogs from "../OurBlogs/index"
+import BottomBAnner from '../../components/generic/bottomBAnner';
 const Home = () => {
   return (
     <div>
@@ -14,6 +16,8 @@ const Home = () => {
       <OurVision/>
       <OurServices/>
       <ContactUs/>
+      <OurBlogs/>
+      <BottomBAnner/>
     </div>
   )
 }
