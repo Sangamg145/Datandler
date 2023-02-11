@@ -11,8 +11,7 @@ import LinkIcon from "../../assest/LinkdlnIcon.svg";
 // "LinkdlnIcon.svg"
 
 import "./style.css";
-import { Link, NavLink } from "react-router-dom";
-const Index = ({background, textColor, margin}) => {
+const Index = ({background, textColor, margin,refEl}) => {
   const [values, setValues] = useState({
     userName: "",
     email: "",
@@ -48,7 +47,7 @@ const Index = ({background, textColor, margin}) => {
   };
 
   return (
-    <div className="contact-container" style={{backgroundColor:background, marginTop:margin}}>
+    <div ref={refEl} className="contact-container" style={{backgroundColor:background, marginTop:margin}}>
       <div>
         <h2>\ Get In Touch \</h2>
         <h1 style={{color:textColor}}>Hey! Let’s Talk</h1>

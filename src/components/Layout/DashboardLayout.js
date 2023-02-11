@@ -4,11 +4,11 @@ import { useState } from 'react'
 import { Header } from '../Header/Header';
 import Sidebar from '../Header/Sidebar';
 import Footer from '../../pages/Footer';
-export default function DashboardLayout() {
+export default function DashboardLayout({setGoto}) {
     const [open, setOpen] = useState(true);
   return (
     <div>
-         <Header open={open} setOpen={setOpen}/>
+         <Header setGoto={setGoto} open={open} setOpen={setOpen}/>
          <Sidebar open={open} setOpen={setOpen} />
 
 {/* This element will render either <DashboardMessages> when the URL is
