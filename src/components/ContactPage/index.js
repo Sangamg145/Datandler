@@ -145,7 +145,7 @@ const Index = ({background, textColor, margin,refEl}) => {
               <div className="about-containerInner3rd-div">
                 <p style={{ color: "#FF3E54" }}>Call Anytime</p>
                 <p style={{ fontWeight: 500, fontSize: "16px", margin: "0" }}>
-                  + 91 23678 27867
+                  + 91 2344345653, + 91 4445445565 
                 </p>
               </div>
             </div>

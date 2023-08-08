@@ -16,17 +16,18 @@ const index = () => {
             Business Growth
           </h1>
           <p
-            // style={{
-            //   fontFamily: "Raleway",
-            //   fontWeight: "500",
-            //   fontSize: 16,
-            //   lineHeight: "26px",
-            // }}
+            style={{
+              fontFamily: "Raleway",
+              fontWeight: "500",
+              fontSize: 16,
+              lineHeight: "32px",
+            }}
           >
-            It is a long established fact that a reader will be distracted by
-            the readable content of a page when looking at its layout. The point
-            of using Lorem Ipsum is that it has a more-or-less normal
-            distribution of letters, as opposed
+            At Datandler, we are more than just a software solution company – we are the architects of innovation.
+             With a passionate team driven by creativity and technology, we thrive on transforming ideas into tangible realities.
+              Our journey is defined by a commitment to excellence, where we constantly push boundaries to deliver solutions that empower businesses and individuals alike.
+               By blending expertise with a customer-centric approach, we create meaningful and lasting partnerships that drive success. Discover the essence of Datandler – a hub of innovation, collaboration, and boundless possibilities.
+             Welcome to our world, where the future is coded, designed, and realized.
           </p>
         </div>
         <div
@@ -65,7 +66,7 @@ const index = () => {
                     color: "#FF3E54",
                   }}
                 >
-                  9988987890
+                  9756068029
                 </span>
               </p>
             </div>

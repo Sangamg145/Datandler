@@ -27,14 +27,16 @@ const index = () => {
               fontFamily: "Raleway",
               fontWeight: "500",
               fontSize: 16,
-              lineHeight: "26px",
+              lineHeight: "32px",
             }}
           >
-            It is a long established fact that a reader will be distracted by
-            the readable content of a page when looking at its layout. The point
-            of using Lorem Ipsum is that it has a more-or-less normal
-            distribution of letters, as opposed, Lorem Ipsum is that it has a
-            more-or-less normal distribution of letters, as opposed
+            At Datandler, our expertise spans a diverse spectrum of services that cater to your digital needs.
+             From crafting captivating web designs to developing cutting-edge applications, 
+             we breathe life into your digital dreams. Our seamless website migration ensures a smooth transition,
+              while HubSpot integration streamlines your operations for optimal efficiency.
+               With a keen eye on UX/UI design, we create user-centric interfaces that resonate.
+                Harnessing the power of email marketing, we nurture connections that drive growth.
+                 At Datandler, we don't just provide solutions – we shape possibilities for a dynamic digital future.
           </p>
         </div>
         <div className="ourvisionBox">

@@ -10,27 +10,28 @@ const DummyData = [
     id:'01',
     CardImg: Card1,
     title:'Research',
-    message:'It is a long established fact that a reader will be distra by the readable content of a page.'
+    message:`Unveiling Insights for Innovation
+Dive into the depths of innovation as we explore, analyze, and uncover the crucial insights that fuel our software solutions at Datandler.`
   },
   {
     id: '02',
     CardImg: Card2,
     title:'Design',
-    message:'It is a long established fact that a reader will be distra by the readable content of a page.'
- 
+    message:`Crafting Tomorrow's User Experience
+Transforming ideas into intuitive interfaces, our design experts at Datandler weave creativity and functionality into every pixel and enhancing user experiences.`
   },
   {
     id:'03',
     CardImg: Card3,
     title:'Develope',
-    message:'It is a long established fact that a reader will be distra by the readable content of a page.'
-  },
+    message:`Code that Shapes Possibilities
+At Datandler, we bring concepts to life through meticulous coding, building robust and scalable software solutions that cater to diverse business needs.` },
   {
     id: '04',
     CardImg: Card4,
     title:'Test',
-    message:'It is a long established fact that a reader will be distra by the readable content of a page.'
- 
+    message:`Precision in every Pixel, Line, and Byte
+Our rigorous testing process at Datandler ensures that every aspect of our software solutions is finely tuned, providing reliability and quality that exceeds expectations.`
   },
 ];
 
