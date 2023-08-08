@@ -170,6 +170,7 @@ const Index = ({background, textColor, margin,refEl}) => {
                 </p>
               </div>
             </div>
+            
           </div>
           <div className="about-containerInner3rd">
             <div>
